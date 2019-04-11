@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<preference for="Magento\Checkout\Controller\Sidebar\UpdateItemQty" type="Kcn\MinicartQty\Controller\Sidebar\UpdateItemQty" />
+
+	<preference for="Magento\Checkout\Model\Sidebar" type="Kcn\MinicartQty\Model\Sidebar" />
+	<preference for="Magento\Checkout\Model\Cart" type="Kcn\MinicartQty\Model\Cart" />
+
+	<preference for="Magento\Checkout\Block\Cart\Sidebar" type="Kcn\MinicartQty\Block\Cart\Sidebar" />
+</config>
